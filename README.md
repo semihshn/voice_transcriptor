@@ -2,7 +2,8 @@
 
 Bu proje, mikrofon aracılığıyla ses kaydı alıp, Hugging Face Whisper modeli kullanarak transkripsiyon yapan bir Python uygulamasıdır. Uygulama, kullanıcının "q" tuşu ile kaydı durdurmasına olanak tanır, alınan ses verisini WAV dosyası olarak kaydeder ve transkripsiyonu hem konsolda gösterir hem de `transcription.txt` dosyasına ekler. Konsol çıktıları, [Rich](https://rich.readthedocs.io/en/stable/) kütüphanesi kullanılarak kullanıcı dostu hale getirilmiştir.
 
-> **Önemli:** Bu projede, modelin çalışması için PyTorch yerine **TensorFlow** kullanılmaktadır. Dolayısıyla gereksinim listesinde `tensorflow` paketi yer almaktadır.
+
+> **Önemli:** Bu projede, modelin çalışması için **PyTorch** paketi bilgisayarınızda kurulu olmalıdır. Uygulama, transkripsiyon işlemi sırasında GPU yerine CPU kullanır.
 
 ---
 
@@ -27,7 +28,7 @@ Bu proje, mikrofon aracılığıyla ses kaydı alıp, Hugging Face Whisper model
 
 ## Gereksinimler
 
-- **Python:** 3.8 veya daha yeni bir sürüm (özellikle Python 3.10 önerilir)
+- **Python:** 3.10 sürümü gereklidir.
 - **pip:** Python paket yöneticisi
 
 ### Gerekli Python Paketleri

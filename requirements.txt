@@ -3,3 +3,6 @@ sounddevice
 pynput
 transformers
 rich
+torch
+torchvision
+torchaudio
