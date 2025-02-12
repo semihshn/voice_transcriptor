@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL dosyaları
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dağıtım / paketleme (dist) dosyaları
+build/
+dist/
+eggs/
+*.egg-info/
+*.egg
+
+# Ortak sanal ortam (virtual env) klasörleri
+env/
+venv/
+.venv/
+ENV/
+ENV2/
+ENV3/
+venv2/
+venv3/
+.venv2/
+.venv3/
+
+# PyInstaller tarafından üretilen dosyalar
+*.spec
+
+# Kurulum (install) log dosyaları
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebook checkpoint klasörleri
+.ipynb_checkpoints
+
+# Mypy gibi tip denetim araçlarının oluşturduğu klasörler
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest cache klasörü
+.cache/
+
+# Kod kapsamı (coverage) raporları
+.coverage
+.coverage.*
+htmlcov/
+
+# Django spesifik dosyalar
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask spesifik klasörler
+instance/
+.webassets-cache
+
+# Sphinx belgeleri build klasörü
+docs/_build/
+
+# IDE / Editör spesifik ayarlar (opsiyonel)
+.vscode/
+.idea/
