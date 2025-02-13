@@ -75,7 +75,7 @@ def record_audio(filename, fs=16000):
 def transcribe_audio(filename):
     console.print("[bold cyan]Transcribing audio...[/bold cyan]")
     pipe = pipeline("automatic-speech-recognition", model="openai/whisper-large-v3-turbo", device=0)
-    transcription = pipe(filename)
+    transcription = pipe(filename, return_timestamps=True)
     return transcription
 
 def main():
